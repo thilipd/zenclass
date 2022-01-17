@@ -1,0 +1,116 @@
+{
+    "name": [
+        {
+            "firstName": "Thilip",
+            "lastName": "Dhanavel"
+        }
+    ],
+    "aboutMe": [
+        "Sound knowledge of the React.js, Node.js, Mongo DB, MySQL, HTML, CSS and Java Script.",
+        "Ability to develop and design webpages and websites to make them functional.",
+        "Ability to develop multi-user applications within SOA.",
+        "Multi-tasking ability with the experience of handling multiple projects at a time.",
+        "Experience of integrating websites with social networking sites like Facebook, Twitter etc.",
+        "Team player with experience of training the new joiners.",
+        "Ability to grasp the ideas of the clients and implement in the same direction.",
+        "Excellent communication and inter-personal skills with experience of interacting with the end-users and resolving their queries to their satisfaction"
+    ],
+    "workExperience": [
+        {
+            "title": "Client Service Executive",
+            "company": "2adpro media solutions ltd",
+            "workedFrom": "July 2018",
+            "workedTill": "March 2020",
+            "description": [
+                "Evaluated the customer's needs and provided service options to meet their requirements.",
+                "Assisted clients in understanding their available options and helped them select the right service plans for their needs.",
+                "Compiled reports of completed inspections.",
+                "Drafted recommendations to enhance the production process.",
+                "Effectively communicate with technicians and management.",
+                "Ensure removal and proper disposal of materials that failed to meet specifications.",
+                "Monitored project operations to ensure compliance with set standards.",
+                "Acknowledged customer issues and resolved their problems quickly and efficiently."
+            ]
+        },
+        {
+            "title": "Business proprietor",
+            "company": "L.A.L fruits and vegetables commission Agency ",
+            "workedFrom": "September 2015",
+            "workedTill": "January 2018",
+            "description": [
+                " Buying and selling products.",
+                "Implementing effective trading strategies.",
+                "Recording and reporting each day's profit and loss.",
+                "Determining market sentiment via research and valuation",
+                "Regularly monitoring to attract new clients.",
+                "Executing trades"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "class": "B.Tech",
+            "course": "Electronics and Communication",
+            "schoolName": "Sri Manakula Vinayagar Engg College",
+            "board": "Pondicherry University",
+            "percentage": "66.3%",
+            "yearPassed": "2015"
+        },
+        {
+            "class": "12th",
+            "course": "Maths, Physics, Chemistry, Computer Science",
+            "schoolName": "Christian Matriculation Higher secondary school",
+            "board": "State Board",
+            "percentage": "73%",
+            "yearPassed": "2011"
+        },
+        {
+            "class": "10th",
+            "schoolName": "Sri Ramakrishna Vidhayalaya Gurukulam",
+            "board": "Maticulation",
+            "percentage": "74%",
+            "yearPassed": "2009"
+        }
+    ],
+    "personalStrength": [
+        "Team Work",
+        "Multi-tasking",
+        "Motivation",
+        "Problem Solving",
+        "Analytical"
+    ],
+    "contact": [
+        {
+            "address": "259/2, 7th street, Kamakotinagar, Pallikaranai, Chennai",
+            "pincode": "600100",
+            "mobileNo": "+91-9047546993",
+            "alternateNo": "+91-9345131665",
+            "e-mail": "thilip.dhanavel@gmail.com"
+        }
+    ],
+    "personal": [
+        {
+            "dob": "29/08/1993",
+            "resident": "Indian"
+        }
+    ],
+    "socilaMedia": [
+        {
+            "twitter": "https://twitter.com/TDhanavel",
+            "linkedin": "https://www.linkedin.com/in/thilip-dhanavel/",
+            "github": "https://github.com/thilipd",
+            "codepen": "https://codepen.io/thilipd"
+        }
+    ],
+    "languages": [
+        "English",
+        "Tamil"
+    ],
+    "intrest": [
+        "Football",
+        "Trekking",
+        "Listing musics",
+        "Coding",
+        "Blogs"
+    ]
+}
