@@ -44,8 +44,6 @@ console.log(circle1.area());
 
 console.log(circle1.circumfrence());
 
-circle1.getColor = 5;
-
 console.log(circle1.area());
 
 console.log(circle1.getRadius);
