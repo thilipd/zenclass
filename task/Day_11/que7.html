@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            line-height: 1.4;
+            background-color: #000;
+
+        }
+
+        .container {
+            border: 10px double black;
+            width: 500px;
+            padding: 5px 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 130px;
+            background-color: #fff;
+
+
+        }
+
+        .head {
+            background-color: red;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        form {
+            margin: 10px 0;
+        }
+
+        .statebox,
+        .name,
+        .subscription {
+            display: flex;
+        }
+
+        .statebox,
+        .name {
+            justify-content: space-between;
+        }
+
+        .statebox,
+        .name,
+        .subscription,
+        .address {
+            margin-bottom: 10px;
+        }
+
+        input {
+            border: none;
+            border-bottom: 1px solid black;
+            text-align: center;
+            font-family: 'Cedarville Cursive', cursive;
+            font-size: 20px;
+        }
+
+
+        .fname,
+        .lname {
+            width: 100%;
+        }
+
+        .namef,
+        .namel {
+            width: 200px;
+        }
+
+        .add {
+            width: 440px;
+        }
+
+        .cit,
+        .sta {
+            width: 100px
+        }
+
+        .z {
+            width: 140px
+        }
+
+        .subscription {
+            align-items: center;
+        }
+
+        .subscription p,
+        .year1 {
+            padding-right: 10px;
+        }
+
+        .subscription,
+        .information {
+            font-weight: bold;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <p>Yes! I want to subscribe to <strong>Mag-O-Zine</strong></p>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="name">
+                    <div class="fname">
+                        <input type="text" class="namef"><br>
+                        <label>First name</label>
+                    </div>
+                    <div class="lname">
+                        <input type="text" class="namel"><br>
+                        <label>Last name</label>
+                    </div>
+                </div>
+                <div class="address">
+                    <input type='text' class='add'><br>
+                    <label>address</label>
+                </div>
+                <div class="statebox">
+                    <div class="city">
+                        <input type="text" class='cit'><br>
+                        <label>City</label>
+                    </div>
+                    <div class="state">
+                        <input type="text" class='sta'><br>
+                        <label>State</label>
+                    </div>
+                    <div class="zip">
+                        <input type="number" class='z'><br>
+                        <label>Zip</label>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <p>Subscribe for:</p>
+                    <div class="year1">
+                        <input type="checkbox" name="year1">
+                        <label for="year1">1 year ($19.95)</label>
+                    </div>
+                    <div class="year1">
+                        <input type="checkbox" name="year2">
+                        <label for="year2">2 year ($35.00)</label>
+                    </div>
+                </div>
+                <div class="information">
+                    <p>Send me more information about:</p>
+                    <input type="checkbox" name="comp">
+                    <label for="comp">Computer-Zine</label><br>
+                    <input type="checkbox" name="fish">
+                    <label for="fish">Fish-Zine</label><br>
+                    <input type="checkbox" name="cat">
+                    <label for="cat">Cat-O-Zine</label><br>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
